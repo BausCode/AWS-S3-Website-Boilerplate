@@ -18,7 +18,7 @@ export TF_VAR_aws_secret_access_key=$YOUR_AWS_SECRET_ACCESS_KEY
 export TF_VAR_cloudflare_api_key=$YOUR_CLOUDFLARE_API_KEY
 ```
 
-Set remaining required variables in `terraform.tfvars`.
+Set remaining required variables in [terraform.tfvars](terraform.tfvars).
 
 Run `terraform plan` to verify correct configuration.
 
