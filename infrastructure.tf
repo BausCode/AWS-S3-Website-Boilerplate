@@ -35,7 +35,7 @@ resource "aws_s3_bucket" "pro_cdn" {
       }
     ]
   }
-  EOF
+EOF
 
   website {
     index_document = "index.html"
